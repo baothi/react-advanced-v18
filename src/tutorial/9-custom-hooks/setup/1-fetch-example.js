@@ -18,8 +18,9 @@ const Example = () => {
 
   useEffect(() => {
     getProducts()
+    // console.log(getProducts())
   }, [url])
-  console.log(products)
+  console.log("=====",products)
   return (
     <div>
       <h2>{loading ? 'loading...' : 'data'}</h2>

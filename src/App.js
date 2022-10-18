@@ -1,10 +1,10 @@
 import React from 'react'
-import Setup from './tutorial/8-useContext/setup/1-context-api';
-import Final from './tutorial/8-useContext/final/1-context-api';
+import Setup from './tutorial/10-prop-types/setup';
+import Final from './tutorial/10-prop-types/final';
 function App() {
   return (
     <div className='container'>
-      <h2>useReducer</h2>
+      <h2>Custom Hooks</h2>
       <Setup />
     </div>
   )
